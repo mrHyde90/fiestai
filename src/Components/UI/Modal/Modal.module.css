@@ -1,0 +1,17 @@
+.Modal{
+    height: 200px;
+    width: 200px;
+    background: white;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 100;
+    top: 30%;
+    left: 20%;
+}
+
+@media(min-width: 25rem){
+    .Modal {
+        width: 320px;
+        left: 40%;
+    }
+}
