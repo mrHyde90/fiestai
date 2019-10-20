@@ -1,0 +1,32 @@
+.Databases {
+    width: 70%;
+    margin: 0 auto;
+}
+.Title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.FloatImage{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+}
+
+.ClearFlo{
+    clear: both;
+}
+
+.SubTitle{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Separado{
+    margin: 5rem;
+}
