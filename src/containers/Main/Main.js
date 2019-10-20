@@ -9,7 +9,7 @@ import Senegal from "../../Components/Senegal/Senegal";
 import Mauritania from "../../Components/Mauritania/Mauritania";
 var sectionStyle = {
     width: "100%",
-    height: "100%",
+    height: "100vh",
     backgroundSize: 'cover',
     backgroundImage: `url(${Background})`
   };
