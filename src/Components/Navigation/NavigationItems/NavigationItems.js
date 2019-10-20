@@ -8,13 +8,13 @@ const navigationItems = () => (
         {/*Un li con una NavLink*/}
         <NavigationItem link="/" exact>Main</NavigationItem>
         <div className={classes.Line}></div>
+        <NavigationItem link="/vulnerability" exact>Vulnerability</NavigationItem>
+        <div className={classes.Line}></div>
         <NavigationItem link="/solutions" exact>Solutions</NavigationItem>
         <div className={classes.Line}></div>
         <NavigationItem link="/databases" exact>DataBases</NavigationItem>
         <div className={classes.Line}></div>
         <NavigationItem link="/know" exact>Meet Fiesta i</NavigationItem>
-        <div className={classes.Line}></div>
-        <NavigationItem link="/vulnerability" exact>Vulnerability</NavigationItem>
         
     </ul>
     </ul>
