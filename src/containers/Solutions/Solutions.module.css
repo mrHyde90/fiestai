@@ -1,0 +1,38 @@
+.Solutions {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.MainTitle {
+    text-align: center;
+}
+
+.Subdivision {
+    border-bottom: 1px solid black;
+}
+
+.caja1 {
+    padding: 10px;
+    background: #c9f0cd;
+}
+
+.caja2 {
+    background: #55e6de;
+    padding: 10px;
+}
+
+
+.caja3 {
+    background: #efdff5;
+    padding: 10px;
+}
+
+
+.caja4 {
+    background: #d1ebe9;
+    padding: 10px;
+}
+
+.Division {
+    margin-top: 20px;;
+}
