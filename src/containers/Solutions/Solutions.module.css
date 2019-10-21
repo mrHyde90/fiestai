@@ -1,5 +1,5 @@
 .Solutions {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -31,6 +31,7 @@
 .caja4 {
     background: #d1ebe9;
     padding: 10px;
+    text-align: center;
 }
 
 .Lista {

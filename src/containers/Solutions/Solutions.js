@@ -5,6 +5,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import mojito from "../../assets/images/ojito.png";
 import fotito from "../../assets/images/fotito.png";
+import Algo12 from "../../assets/images/algo12.png";
+import Algo11 from "../../assets/images/algo11.png";
+import Algo2 from "../../assets/images/algo2.png";
+import Algo3 from "../../assets/images/algo3.png";
+import Algo4 from "../../assets/images/algo4.png";
+import Algo51 from "../../assets/images/algo51.png";
+import Algo52 from "../../assets/images/algo52.png";
+import Algo53 from "../../assets/images/algo53.png";
+import Algo6 from "../../assets/images/algo6.png";
 class Solutions extends Component {
     render(){
         return(
@@ -12,20 +21,6 @@ class Solutions extends Component {
                 <h1 className={classes.MainTitle}>Solutions</h1>
                 <Container>
                     <Row>
-                        <Col>
-                            <div className={classes.caja1}>
-                                <h2>ALGORITHM</h2>
-                                <ol className={classes.Lista}>
-                                <li>The countries with the highest risk are located (UN maps)</li>
-                                    <li>The states/regions with the highest risk are located (UN maps).</li>
-                                    <li>Compared with flood/precipitation maps</li>
-                                    <li>The regions where there is greater risk and at the same time more floods are located.</li>
-                                    <li>You get the google Earth map of the region, and draw the contour lines of the region</li>
-                                    <li>Escape routes are proposed for the population, routes to direct the water and possiblecause to lake bodies for agriculture.</li>
-                                </ol>
-                                
-                            </div>
-                        </Col>
                         <Col>
                             <div className={classes.caja2}>
                                 <h2>GUIDING WATER</h2>
@@ -36,9 +31,7 @@ class Solutions extends Component {
                                 </p>
                             </div>
                         </Col>
-                    </Row>
-                    <div className={classes.Division}></div>
-                    <Row>
+                    
                         <Col>
                                 <div className={classes.caja3}>
                                     <p>
@@ -53,10 +46,40 @@ class Solutions extends Component {
                                     <p className={classes.Subdivision}>Target 13.b: Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed countries and small island developing States, including focusing on women, youth and local and marginalized communities</p>
                                 </div>
                         </Col>
-                        <Col>
+                        
+                    </Row>
+                    <div className={classes.Division}></div>
+                    <Row>
+                    <Col>
                                 <div className={classes.caja4}>
                                 <img className={classes.Imagen} src={fotito}  />
                                 </div>
+                        </Col>
+                    </Row>
+                    <div className={classes.Division}></div>
+                    <Row>
+                        <Col>
+                            <div className={classes.caja1}>
+                                <h2>ALGORITHM</h2>
+                                <ol className={classes.Lista}>
+                                <li>The countries with the highest risk are located (UN maps)</li>
+                                <img className={classes.Imagen} src={Algo11}  />
+                                <img className={classes.Imagen} src={Algo12}  />
+                                    <li>The states/regions with the highest risk are located (UN maps).</li>
+                                    <img className={classes.Imagen} src={Algo2}  />
+                                    <li>Compared with flood/precipitation maps</li>
+                                    <img className={classes.Imagen} src={Algo3}  />
+                                    <li>The regions where there is greater risk and at the same time more floods are located.</li>
+                                    <img className={classes.Imagen} src={Algo4}  />
+                                    <li>You get the google Earth map of the region, and draw the contour lines of the region</li>
+                                    <img className={classes.Imagen} src={Algo51}  />
+                                    <img className={classes.Imagen} src={Algo52}  />
+                                    <img className={classes.Imagen} src={Algo53}  />
+                                    <li>Escape routes are proposed for the population, routes to direct the water and possiblecause to lake bodies for agriculture.</li>
+                                    <img className={classes.Imagen} src={Algo6}  />
+                                </ol>
+                                
+                            </div>
                         </Col>
                     </Row>
                 </Container>
