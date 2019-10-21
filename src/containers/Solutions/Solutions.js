@@ -15,11 +15,15 @@ class Solutions extends Component {
                         <Col>
                             <div className={classes.caja1}>
                                 <h2>ALGORITHM</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget sollicitudin arcu. 
-                                    Sed consectetur dolor diam, eget volutpat est accumsan quis. Duis ultricies quis orci eu vulputate. 
-                                    Maecenas maximus sem a nulla consequat, non convallis tellus
-                                </p>
+                                <ol className={classes.Lista}>
+                                <li>The countries with the highest risk are located (UN maps)</li>
+                                    <li>The states/regions with the highest risk are located (UN maps).</li>
+                                    <li>Compared with flood/precipitation maps</li>
+                                    <li>The regions where there is greater risk and at the same time more floods are located.</li>
+                                    <li>You get the google Earth map of the region, and draw the contour lines of the region</li>
+                                    <li>Escape routes are proposed for the population, routes to direct the water and possiblecause to lake bodies for agriculture.</li>
+                                </ol>
+                                
                             </div>
                         </Col>
                         <Col>

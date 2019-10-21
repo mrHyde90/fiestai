@@ -33,6 +33,10 @@
     padding: 10px;
 }
 
+.Lista {
+    list-style-type: decimal;
+}
+
 .Division {
     margin-top: 20px;;
 }
